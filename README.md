@@ -10,5 +10,5 @@ terminal novo terminal
 verifica se está em: /var/www/html/info_php_25
 
 git add . 
-git comit -m ""
+git commit -m ""
 git push
