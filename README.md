@@ -9,6 +9,9 @@ file open folder: seleciona tudo e apaga
 terminal novo terminal
 verifica se está em: /var/www/html/info_php_25
 
+no terminal digitar: sudo service apache2 start
+
 git add . 
 git commit -m ""
 git push
+
