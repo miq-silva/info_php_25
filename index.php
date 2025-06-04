@@ -92,7 +92,7 @@ echo "<br>";
 $i = 2;
 $contadorPares = 0;
 while ($i < 20) 
-"$multiplicador * $i = $resultado". "<br>"{
+"$multiplicador * $i = $resultado". "<br>"; {
 
     $numero = $i;
     $resto = $numero % 2; //0
