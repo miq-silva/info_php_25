@@ -15,3 +15,8 @@ git add .
 git commit -m ""
 git push
 
+while = enquanto
+
+$resultado = 10 / 2; // 5 Quociente
+$resultador = 10 % 2; // 0 resto
+

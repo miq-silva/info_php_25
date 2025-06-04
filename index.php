@@ -43,3 +43,91 @@ if ($media >= $médiaAprovacao) {
 } else {
     echo "O aluno foi reprovado.";
 }
+
+echo "<br>";
+echo "<br>";
+
+$multiplicador = 5;
+
+/*
+for ($i = 0; $i <= 10; $i++) {
+    $resultado = $multiplicador * $i;
+
+    echo "$multiplicador * $i = $resultado" . "<br>";
+
+}
+
+
+Outro jeito de escrever
+
+$i=0 
+while ($i <=10)
+
+echo "$multiplicador * $i = $resultado". "<br>";
+
+$i++;
+
+*/
+
+$contadorPares = 0;
+for ($i = 2; $contadorPares < 20; $i++) {
+    
+    $numero = $i;
+    $resto = $numero % 2;
+    $par = $resto == 0;
+
+    if ($par) {
+        $contadorPares++;
+        echo "O número $numero é par" . "<br>";
+    }
+}
+
+echo "<br>";
+echo "<br>";
+
+
+
+// Exercício Contar números até 20 números pares e exibí-los. ;
+
+$i = 2;
+$contadorPares = 0;
+while ($i < 20) 
+"$multiplicador * $i = $resultado". "<br>"{
+
+    $numero = $i;
+    $resto = $numero % 2; //0
+    $par = $resto == 0;
+
+    if ($par) {
+        $contadorPares++;
+        echo "O número $numero é par" . "<br>";
+
+        $i++;
+    }
+}
+
+echo "<br>";
+echo "<br>";
+
+
+// Exercício: Criar uma contagem de 10 - 0;
+
+
+
+
+// Exercício: Encontre os primeiros 5 números primos;
+
+$contPrimos = 0;
+        for ($numeroAvaliado = 3; $contPrimos < 5; $numeroAvaliado++) {
+            $penultimoNumero = $numeroAvaliado - 1;
+
+            for ($divisor = 2; $divisor <= $penultimoNumero; $divisor++) {
+
+                $resto = $numero % 2;
+                $divisaoExata = $resto == 0;
+
+                if ($divisaoExata && $divisor < $penultimoNumero) {
+                    break;
+                }
+            }
+        }         
