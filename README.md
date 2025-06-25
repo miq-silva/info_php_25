@@ -20,3 +20,7 @@ while = enquanto
 $resultado = 10 / 2; // 5 Quociente
 $resultador = 10 % 2; // 0 resto
 
+laço: do/while/for
+strlen = tamanho da frase
+
+teste de mesa
