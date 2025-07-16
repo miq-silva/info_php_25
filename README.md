@@ -24,3 +24,13 @@ laço: do/while/for
 strlen = tamanho da frase
 
 teste de mesa
+
+$numerosA = [10, 20, 30, 40, 50];
+$numerosB = [5, 45, 37, 2, 25];
+$soma = [];
+
+for ($i = 0; $i < count($numerosA); $i++) {
+    $soma[$i] = $numerosA[$i] + $numerosB[$i];
+}
+
+print_r($soma);

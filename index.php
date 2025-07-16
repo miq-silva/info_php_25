@@ -393,6 +393,7 @@ function somar($valor1, $valor2) {
   * Utilizar somente laço FOR. Não utilizar funcoes prontas do PHP para ordenacao.
   */
 
+
 function ordenarArray(array $dados, string $ordem = "asc") {
 
     $tam = count($dados);
@@ -455,6 +456,7 @@ $numeros = [2,10, 20, 30, 60, 5,40, 50, 1, 500];
  * maior => menor
  */
 
+
 $numerosOrdenados = ordenarArray($numeros);
 exibirDados($numerosOrdenados);
 $numerosOrdenados = ordenarArray($numeros, "desc");
@@ -486,3 +488,22 @@ exibirDados($numerosOrdenados);
 
   * Utilizar somente laço FOR. Não utilizar funcoes prontas do PHP.
   */
+
+  /**
+  * Multiplicar os arrays/vetores abaixo:
+  * $numerosA = [10, 20, 30, 40, 50];
+  * $numerosB = [5, 45, 37, 2, 25];
+  *
+  * Saida esperada: $soma[15, 65, 67, 42, 75]
+
+  * Utilizar somente laço FOR. Não utilizar funcoes prontas do PHP.
+  */
+
+
+
+
+
+/*
+for dentro do outro
+soma o array com o outro
+soma uma posição do array com a outra
